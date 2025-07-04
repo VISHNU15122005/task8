@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Casual Blog</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-white">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Casual Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Posts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Blog Cards -->
+  <div class="container my-5">
+    <div class="row g-4">
+
+      <!-- Blog Card Template -->
+      <!-- Repeat with different content -->
+
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card bg-secondary text-white h-100 shadow">
+          <img src="https://tse1.mm.bing.net/th/id/OIP.oaW9heJ76zLR81Xght8-AAHaFh?pid=Api&P=0&h=220" width="300px" height="300px" class="card-img-top" alt="Tech Toybox">
+          <div class="card-body">
+            <h5 class="card-title">My Tech Toybox</h5>
+            <p class="card-text">Just geeking out over the coolest gadgets, apps, and tech stuff I stumble across.</p>
+            <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal1">Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 1 -->
+      <div class="modal fade" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+              <h5 class="modal-title">My Tech Toybox</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              Whether it's a new phone with way too many cameras, an AI tool that writes like a human, or a tiny gadget that solves a big problem, I love exploring how tech makes our lives cooler and more convenient. I share honest opinions, hands-on experiences, and random thoughts about the latest in tech.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat for other cards -->
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card bg-secondary text-white h-100 shadow">
+          <img src="https://tse2.mm.bing.net/th/id/OIP.yamWur5tXx1YRz8EdqXhuwHaE7?pid=Api&P=0&h=220" width="300px" height="300px" class="card-img-top" alt="Wander With Me">
+          <div class="card-body">
+            <h5 class="card-title">Wander With Me</h5>
+            <p class="card-text">Sharing stories, snaps, and tips from the places I’ve explored — and the ones I dream about.</p>
+            <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal2">Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+              <h5 class="modal-title">Wander With Me</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              I’m not a full-time traveler, but I believe every getaway has a story. From peaceful mountain hikes to chaotic city adventures, this blog is my travel journal. Expect real talk, hidden gems, budget tips, and the kind of travel advice I wish someone had told me before I got lost (again).
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card bg-secondary text-white h-100 shadow">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.DBxg7jJrC3lIit0KyTAvbgHaDt?pid=Api&P=0&h=220"  width="300px" height="300px" class="card-img-top" alt="Foodie Finds">
+          <div class="card-body">
+            <h5 class="card-title">Foodie Finds</h5>
+            <p class="card-text">From midnight snacks to fancy feasts — a dive into what’s cooking in my kitchen.</p>
+            <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal3">Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+              <h5 class="modal-title">Foodie Finds</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              I'm no chef, but I love food way too much not to write about it. Here you'll find my go-to recipes, weird food combinations that surprisingly work, restaurant reviews, and late-night cravings that led to culinary chaos. This blog is for anyone who thinks food is the best part of any day.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4">
+        <div class="card bg-secondary text-white h-100 shadow">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.iIMjmepuzb_qGF_50BZxJAHaE7?pid=Api&P=0&h=220" width="300px" height="300px" class="card-img-top" alt="Fitness">
+          <div class="card-body">
+            <h5 class="card-title">Trying to Stay Fit</h5>
+            <p class="card-text">My honest fitness journey — the good workouts, the lazy days, and everything in between.</p>
+            <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal4">Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal4" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+              <h5 class="modal-title">Trying to Stay Fit</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              I’ve tried it all: home workouts, gym memberships, running apps, and even yoga at sunrise (once). This isn’t a fitness expert’s blog — it’s a real-life log of wins, fails, and lessons learned. If you’ve ever struggled with motivation or fallen off the wagon, you’re not alone.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4">
+        <div class="card bg-secondary text-white h-100 shadow">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.L6qeQw5M6Uf3YB68H9h1MwHaEJ?pid=Api&P=0&h=220" width="300px" height="300px"  class="card-img-top" alt="Code">
+          <div class="card-body">
+            <h5 class="card-title">Code & Chill</h5>
+            <p class="card-text">Writing code, breaking stuff, fixing it again. All the fun (and frustration) of being a dev.</p>
+            <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal5">Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal5" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+              <h5 class="modal-title">Code & Chill</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              Programming isn’t just my job — it’s a puzzle I enjoy solving daily. From building side projects to debugging errors at 2AM, this space is where I talk about cool tools, beginner tips, JavaScript rants, and everything that makes coding a wild but rewarding ride.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="card bg-secondary text-white h-100 shadow">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.a5t4aZx0zqsGo0FEcKupaQHaFj?pid=Api&P=0&h=220" width="300px" height="300px" class="card-img-top" alt="Design">
+          <div class="card-body">
+            <h5 class="card-title">Design Vibes</h5>
+            <p class="card-text">Fonts I love, colors I obsess over, and random designs I create for fun.</p>
+            <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal6">Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal6" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+              <h5 class="modal-title">Design Vibes</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              I might not be a professional designer, but I love creating things that look good and feel better. This blog is full of design inspiration, UI/UX experiments, favorite color palettes, and free resources I’ve discovered. Whether you’re into minimalism or chaos-core, you’ll find something to relate to here.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-4">
+    <p class="mb-0">© 2025 Casual Blog | Follow me on 
+      <a href="#" class="text-white ms-2">Instagram</a> |
+      <a href="#" class="text-white ms-2">Twitter</a> |
+      <a href="#" class="text-white ms-2">LinkedIn</a>
+    </p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
